@@ -1,0 +1,80 @@
+.products {
+    margin: 16px 16px 24px;
+    margin-left: 7%;
+    border-radius: 4px;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .heading :first-child {
+    font-size: 24px;
+    color: #002f34;
+  }
+  .heading :last-child {
+    font-size: 14px;
+    color: #002f34;
+  }
+  .card-box {
+    margin-right: 10px;
+    padding: 13px;
+    max-width: 222px;
+    width: 222px;
+    border: 1px solid;
+    height: 280px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .card-box .favorite {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .card-box .favorite svg{
+    height: 20px;
+    width: 20px;
+   
+  }
+  .card-box .favorite .heart{
+    background-color: red;
+  }
+  .card-box .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card-box .image img {
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    text-align: center;
+  }
+  .card-box .content .rate {
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: 600;
+    width: 200px;
+    margin-bottom: 0px;
+  }
+  .card-box .content .kilometer {
+    font-size: medium;
+  }
+  .card-box .content .name {
+    font-size: small;
+  }
+  .card-box .date {
+    font-size: small;
+  }
+
+  .card-box .more{
+    background-color: grey;
+    text-align:  center;
+    color: white;
+  }
